@@ -46,7 +46,18 @@ A matrix is used to show the exact statistics. This does not contain extra infor
 
 ![image](https://user-images.githubusercontent.com/66192678/133437553-4bbc6db8-064a-4668-800d-6c0b5f5f0562.png)
 
+Besides physical location, many other factors influence insurance expenses. The focus for this project includes age, BMI, sex, whether is a smoker and the number of children covered by health insurance. As can be seen in the below image, average insurance costs are similar for both males and females, indicating the expense does not have a strong relationship with gender. 
 
+![image](https://user-images.githubusercontent.com/66192678/133438804-e695b975-859e-4cab-89fc-67bd19931954.png)
 
+As shown in the below image, there is a strong relationship between the expense and whether is a smoker or not. Smoking individuals are observed to have a higher insurance cost, which may be caused by their higher cancer rate. 
 
+![image](https://user-images.githubusercontent.com/66192678/133439072-78b22f82-a2a5-49a5-99a1-668994a220fe.png)
 
+The number of children does not affect the cost a lot as shown in the below image. Costs are close for 2, 3 and 4 children, while lower for 0 children and even lower for 5 children. This is an interesting observation that may counter intuition. 
+
+![image](https://user-images.githubusercontent.com/66192678/133439770-fc5e91fc-7f8f-4391-9ad8-2004ba3dcc78.png)
+
+Age and BMI have a stronger relationship with the cost. As shown in the below image, as age increases, the average cost increases slowly. Average charges for 20-years-old people are around 10,000 and average charges for 60-years-old people are around 20,000. For BMI, similar to age, average charges increase slowly as BMI increases. The average cost for people with a 20 BMI is approximately 9000 and the average cost for people with a 40 BMI is approximately 15000.
+
+![image](https://user-images.githubusercontent.com/66192678/133439897-8e327ad2-a637-4670-a8b0-c3b00a332d66.png)
