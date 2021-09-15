@@ -33,19 +33,20 @@ After exploration, 2 datasets that are related to medical insurance details in t
 
 ## Key insights from the data
 In both datasets, physical location shows up. Statistics vary based on their location. In the insurance dataset, the location is represented by 4 regions: northeast, southeast, northwest and northeast. In the state dataset, the location is represented by states. To connect these 2 relations, I add a new column named region for the state dataset and manually assign regions to each state based on the online resources (Wikipedia). It is very interesting and important to explore and understand the insurance rate and other factors which may influence insurance in different regions/states. Power BI provides a very useful visualization - the bubble map where bubble size indicates the value. We can compare bubble sizes to compare the same statistic in different states/regions. States within the same region have the same colour bubble for better visualization.
+
 ![image](https://user-images.githubusercontent.com/66192678/133436385-3d84f4af-18a9-4b63-aca7-0a987d4f0efb.png)
+
 As can be seen in the above image, California has a lower uninsured rate, lower monthly tax credit, and higher employer and marketplace health insurance coverage comparing to other states. The decision maker can utilise this information to alter their strategies. Common patterns within 3 maps can also be identified. One interesting pattern that I observed is that state with lower uninsured rate usually has higher employer and marketplace health insurance coverage and lower monthly tax credit.
 
 A funnel chart is used to compare the average expenses in different regions. As can be seen in the below image, the southeast US has the highest insurance expense, following by the northeast US, the northwest US and the southwest US which is 83.3% of the expense of the southeast US.
+
 ![image](https://user-images.githubusercontent.com/66192678/133437326-9ceca15c-5116-424d-8dd7-e48fbe0c0c7d.png)
 
 A matrix is used to show the exact statistics. This does not contain extra information but is useful when we want to get the exact statistic. We can save time from looking back at the data file again.
+
 ![image](https://user-images.githubusercontent.com/66192678/133437553-4bbc6db8-064a-4668-800d-6c0b5f5f0562.png)
 
 
 
 
-
-
-A funnel chart is used to show average insurance expense for individual in different region
 
